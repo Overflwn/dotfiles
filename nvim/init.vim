@@ -102,3 +102,10 @@ xmap <leader>f <Plug>(coc-format-selected)
 nmap <leader>f <Plug>(coc-format-selected)
 
 " let g:vimtex_view_method = 'zathura'
+filetype plugin indent on
+
+" Change localleader from "\" to ","
+let maplocalleader = ","
+
+" Allow ESC in terminal sessions to go back to normal mode
+:tnoremap <Esc> <C-\><C-n> 
