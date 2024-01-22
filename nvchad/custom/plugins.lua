@@ -23,7 +23,7 @@ local plugins = {
     init = function()
       vim.g.vimtex_syntax_enabled = 0
       vim.maplocalleader = "<Space>"
-      vim.g.vimtex_view_method = "zathura"
+      --vim.g.vimtex_view_method = "zathura"
       vim.g.vimtex_compiler_latexmk = {
         options = {
           "-shell-escape",
