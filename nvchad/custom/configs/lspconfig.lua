@@ -49,4 +49,20 @@ lspconfig.ltex.setup({
     "quarto",
     "rmd",
   },
+  on_attach = on_attach,
+  settings = {
+    ltex = {
+      language="de-DE",
+      sentenceCacheSize = 2000,
+      additionalRules = {
+        enablePickyRules = true,
+        motherTongue = "de-DE",
+      },
+      trace = { server = "verbose" },
+      disabledRules = {},
+      hiddenFalsePositives = {},
+      username = "x@y.z",
+      apiKey = "tete",
+    }
+  }
 })
